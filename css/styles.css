@@ -74,11 +74,11 @@ body {
 }
 
 .adress, .adress-phone-number {
+    color: #757575;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.142;
     letter-spacing: 0.02em;
-    color: #757575;
 }
 
 .adress:hover,
