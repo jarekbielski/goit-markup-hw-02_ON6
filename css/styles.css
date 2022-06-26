@@ -73,7 +73,7 @@ body {
     color: #757575;
 }
 
-.adress {
+.adress, .adress-phone-number {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.142;
@@ -82,23 +82,12 @@ body {
 }
 
 .adress:hover,
-.adress:focus {
-    color: var(--main-color)
-}
-
-
-.adress-phone-number {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.142;
-    letter-spacing: 0.02em;
-    color: #757575;
-}
-
+.adress:focus,
 .adress-phone-number:hover,
 .adress-phone-number:focus {
     color: var(--main-color)
 }
+
 
 /* ---END-HEADER--- */
 
