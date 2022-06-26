@@ -81,10 +81,10 @@ body {
     letter-spacing: 0.02em;
 }
 
-.adress:hover,
-.adress:focus,
-.adress-phone-number:hover,
-.adress-phone-number:focus {
+.adress-link:hover,
+.adress-link:focus,
+.adress-phone-number-link:hover,
+.adress-phone-number-link:focus {
     color: var(--main-color)
 }
 
