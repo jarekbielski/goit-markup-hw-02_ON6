@@ -27,7 +27,6 @@ body {
 /* ---HEADER--- */
 .navigation_logo {
     font-family: var(--secondary-font);
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.192;
@@ -74,6 +73,7 @@ body {
 }
 
 .adress, .adress-phone-number {
+    font-style: none;
     color: #757575;
     font-weight: 500;
     font-size: 14px;
@@ -110,9 +110,7 @@ body {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.363;
-    text-align: center;
     letter-spacing: 0.06em;
-    text-transform: uppercase;
     color: #FFFFFF;
 }
 
