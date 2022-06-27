@@ -38,7 +38,8 @@ body {
     color: #212121
 }
 
-.navigation-list-link {
+.navigation-list-link,
+.portfolio-navigation-list {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.142;
@@ -47,32 +48,34 @@ body {
 }
 
 .navigation-list-link:hover,
-.navigation-list-link:focus {
+.navigation-list-link:focus,
+.portfolio-navigation-link:hover,
+.portfolio-navigation-link:focus {
     color: var(--main-color)
 }
 
-.portfolio-navigation-link {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.142;
-    letter-spacing: 0.02em;
-    color: #212121;
-}
 
 .portfolio-navigation-link-accent {
     color: #2196F3;
 }
 
-.portfolio-adress,
-.portfolio-adress-phone-number {
+.portfolio-navigation-link {
     font-weight: 500;
-    font-size: 14px;
-    line-height: 1.142;
-    letter-spacing: 0.02em;
-    color: #757575;
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
 }
 
-.adress, .adress-phone-number {
+.portfolio-navigation-link {
+    color: #212121;
+}
+
+.adress,
+.adress-phone-number,
+.adress-email-footer,
+.adress-phone-number-footer {
     font-style: none;
     color: #757575;
     font-weight: 500;
@@ -84,7 +87,11 @@ body {
 .adress-link:hover,
 .adress-link:focus,
 .adress-phone-number-link:hover,
-.adress-phone-number-link:focus {
+.adress-phone-number-link:focus,
+.adress-email-footer:focus,
+.adress-email-footer:hover,
+.adress-phone-number-footer:hover,
+.adress-phone-number-footer:focus {
     color: var(--main-color)
 }
 
@@ -126,7 +133,8 @@ body {
     color: #212121;
 }
 
-.discription {
+.discription,
+.portfolio-discription {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.714;
@@ -143,11 +151,9 @@ body {
 }
 
 .portfolio-discription {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.875;
-    letter-spacing: 0.03em;
-    color: #757575;
+
 }
 
 /*---END-DISCRIPTION--- */
@@ -159,7 +165,8 @@ body {
 
 
 /*---TEAM--- */
-.team-list-name {
+.team-list-name,
+.team-list-job {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.187;
@@ -170,10 +177,6 @@ body {
 
 .team-list-job {
     font-weight: 400;
-    font-size: 16px;
-    line-height: 1.187;
-    text-align: center;
-    letter-spacing: 0.03em;
     color: #757575;
 }
 
@@ -181,50 +184,12 @@ body {
 
 
 /*---FOOTER--- */
-.adress-street {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.714;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
-}
 
-.adress-email-footer {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.142;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-}
-
-.adress-phone-number-footer {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.142;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-}
 
 /*---END-FOOTER--- */
 
 
 /*---NAVIGATION-PORTFOLIO--- */
-.navigation-portfolio-link-accent {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.625;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
-}
 
-.navigation-portfolio-link {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.625;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-}
 
 /*---END-NAVIGATION-PORTFOLIO--- */

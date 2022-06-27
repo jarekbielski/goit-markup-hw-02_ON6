@@ -4,38 +4,39 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="/css/styles.css" />
     <title>goit-markup-hw-02-ON6</title>
   </head>
+
+
+
   <body>
-    <header>
-      <section>
-        <nav>
+    <header class="header">
           <!--Logo-header-->
-          <a class="navigation_logo" href="/index.html"><span class="accent">Web</span>Studio</a>
+          <a class="navigation_logo" href="index.html"><span class="accent">Web</span>Studio</a>
           <!--Navigation-->
+          <nav>
           <ul class="portfolio-navigation-list">
-            <li class="portfolio-navigation-item"><a class="portfolio-navigation-link" href="#">Agencja</a></li>
+            <li class="portfolio-navigation-item"><a class="portfolio-navigation-link" href="index.html">Agencja</a></li>
             <li class="portfolio-navigation-item"><a class="portfolio-navigation-link-accent" href="#">Portfolio</a></li>
             <li class="portfolio-navigation-item"><a class="portfolio-navigation-link" href="#">Kontakt</a></li>
           </ul>
         </nav>
         <!--Contact-header-->
-        <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+        <ul class="Contact-header">
+        <li class="adress"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li class="adress-phone-number"><a href="tel:+48111111111">+48 111 111 111</a></li>
         </ul>
       </section>
     </header>
 
     <main>
-      <section>
         <!--Navigation-Portfolio-->
         <ul class="navigation-portfolio">
           <li class="navigation-portfolio-item"><button class="navigation-portfolio-link-accent" type="button">Wszystkie</button></li>
@@ -44,10 +45,9 @@
           <li class="navigation-portfolio-item"><button class="navigation-portfolio-link" type="button">Dizajn</button></li>
           <li class="navigation-portfolio-item"><button class="navigation-portfolio-link" type="button">Marketing</button></li>
         </ul>
-      </section>
 
       <section>
-        <!--What-We_Do-->type="button">
+        <!--What-We_Do-->
         <ul class="what-we-do">
           <li class="what-we-do-list">
             <img class="what-we-do-img"
@@ -144,20 +144,15 @@
     </main>
 
     <footer>
-         <section class="logo">
         <!--Logo-footer-->
         <a class="navigation_logo" href="/index.html"><span class="accent">Web</span>Studio</a>
-      </section>
-      <section>
         <!--Address-->
-        <address class="contact">
+
           <ul class="contact-list">
             <li class="adress-street">m. Warszawa, Aleje Jerozolimskie 21</li>
-            <li><a class="adress-email-footer" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="adress-phone-number-footer" href="tel:+48111111111">+48 111 111 111</a>></li>
+            <li class="adress-link"><a class="adress-email-footer" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="adress-phone-number"><a class="adress-phone-number-footer" href="tel:+48111111111">+48 111 111 111</a></li>
           </ul>
-        </address>
-      </section>
     </footer>
   </body>
 </html>
