@@ -4,25 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link rel="stylesheet" href="/css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/styles.css" />
+    
     <title>goit-markup-hw-02-ON6</title>
   </head>
   <body>
     <header class="header">
-      <section class="navigation">
-        <nav>
           <!--Logo-header-->
           <a class="navigation_logo" href="/index.html"
             ><span class="accent">Web</span>Studio</a
           >
           <!--Navigation-->
+          <nav>
           <ul class="navigation_list">
             <li class="navigation-list-item">
               <a class="navigation-list-link" href="#">Agencja</a>
@@ -90,8 +89,8 @@
       <section class="about">
         <!--About-->
         <h2 class="main-header">Czym się zajmujemy</h2>
-
-        <a class="about-img" href="#">
+        <ul>
+        <li class="about-img" href="#">
           <img
             class="about-img-item"
             src="Images/main/klawiatura.webp"
@@ -99,8 +98,8 @@
             width="370"
             height="294"
           />
-        </a>
-        <a class="about-img" href="#">
+        </li>
+        <li class="about-img" href="#">
           <img
             class="about-img-item"
             src="Images/main/laptop.webp"
@@ -108,8 +107,8 @@
             width="370"
             height="294"
           />
-        </a>
-        <a class="about-img" href="#">
+        </li>
+        <li class="about-img" href="#">
           <img
             class="about-img-item"
             src="Images/main/tablet.webp"
@@ -117,8 +116,11 @@
             width="370"
             height="294"
           />
-        </a>
+        </li>
+        </ul>
       </section>
+
+
       <section class="team">
         <!--Team-->
         <h2 class="main-header">Nasz zespół</h2>
@@ -173,13 +175,10 @@
     </main>
 
     <footer>
-      <section class="logo">
         <!--Logo-footer-->
         <a class="navigation_logo" href="/index.html"
           ><span class="accent">Web</span>Studio</a
         >
-      </section>
-      <section>
         <!--Address-->
           <ul class="contact-list">
             <li class="adress-street">m. Warszawa, Aleje Jerozolimskie 21</li>
@@ -192,7 +191,6 @@
                 >+48 111 111 111</a>
             </li>
           </ul>
-      </section>
     </footer>
   </body>
 </html>
