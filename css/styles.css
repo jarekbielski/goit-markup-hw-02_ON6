@@ -6,7 +6,7 @@
 
 body {
     font-family: "Roboto", "Raleway", sans-serif;
-    list-style: none; 
+    list-style: none;
     text-decoration: none;
 }
 
@@ -68,12 +68,9 @@ body {
     line-height: 1.625;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
-}
-
-.portfolio-navigation-link {
     color: #212121;
 }
+
 
 .adress-link,
 .adress-phone-number-link,
