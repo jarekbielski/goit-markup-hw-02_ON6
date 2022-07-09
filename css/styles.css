@@ -6,7 +6,10 @@
 
 body {
     font-family: "Roboto", "Raleway", sans-serif;
+    list-style: none; 
+    text-decoration: none;
 }
+
 
 /* ---COMPONENTS--- */
 .main-header {
