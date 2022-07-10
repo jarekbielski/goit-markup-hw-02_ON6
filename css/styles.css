@@ -6,6 +6,13 @@
 
 body {
     font-family: "Roboto", "Raleway", sans-serif;
+
+}
+
+ul,
+ol {
+    padding: 0;
+    margin: 0;
     list-style: none;
     text-decoration: none;
 }
@@ -41,6 +48,7 @@ body {
     color: #212121
 }
 
+
 .navigation-list-link,
 .portfolio-navigation-list {
     font-weight: 500;
@@ -48,7 +56,13 @@ body {
     line-height: 1.142;
     letter-spacing: 0.02em;
     color: #212121;
+    cursor: pointer;
 }
+
+.navigation-portfolio {
+    cursor: pointer;
+}
+
 
 .navigation-list-link:hover,
 .navigation-list-link:focus,
@@ -112,6 +126,7 @@ body {
     background: var(--main-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .header {
